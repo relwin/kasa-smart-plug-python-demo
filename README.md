@@ -4,6 +4,7 @@ A short demo using python-kasa to control a smart plug.
 A smart plug is programmed to turn on a light at sunset, then turn it off at a specified time.
 Typically this code sleeps hours and wakes up twice a day to do some activity, just like a cat!
 Tested with a EP10 device.
+
 OS tested:
   Windows 10, Ubuntu 22.04, Raspberry Pi OS 11 (bullseye) on Pi 3B+.
 
