@@ -15,7 +15,7 @@ User supplies:
 4) adj min before/after sunset (+/- up to 15 min or so)
 
 BOOTUP:
-When running on a Pi it's desired to run in the background upon bootup.
+- When running on a Pi it's desired to run in the background upon bootup.
 Supplied is a simple cron.d script to do this on a Pi.
 
 LOGIC:
