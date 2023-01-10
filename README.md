@@ -24,11 +24,17 @@ On startup,
 
 main loop:
     if plug_state=on, calc S seconds to off time
+    
     else, calc S seconds to on time (sunset) with any adjust
+    
     sleep S seconds
+    
     (awaken)
+    
     flip plug_state state
+    
     plug = plug_state (on/off)
+    
 
 Errors:
   Not much error checking, exits if plug isn't found.
