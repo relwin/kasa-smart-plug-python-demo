@@ -6,7 +6,7 @@ Typically this code sleeps hours and wakes up twice a day to do some activity, j
 Tested with a EP10 device.
 
 OS tested:
-  Windows 10, Ubuntu 22.04, Raspberry Pi OS 11 (bullseye) on Pi 3B+.
+- Windows 10 (py 3.8), Ubuntu 22.04 (py 3.10), Raspberry Pi OS 11 bullseye on Pi 3B+ (py 3.9).
 
 User supplies:
 1) smart plug name (alias). Use kasa CLI to provision. This is optional but convenient.
