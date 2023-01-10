@@ -45,7 +45,7 @@ Modules likely needing install:
 For kasa CLI commands, refer to https://python-kasa.readthedocs.io/en/latest/cli.html#provisioning
 
 First find the plug's wifi and connect to its network, its wifi SSID ends with its 4-digit MAC.
-Example: TP-LINK_Smart Plug_8714
+- Example: TP-LINK_Smart Plug_8714
 
 Provision to your main router on 192.168.0.1:
 >kasa --host 192.168.0.1 wifi join 'your network SSID' --password routerspasswordorhexdigits
