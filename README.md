@@ -32,12 +32,12 @@ main loop:
     
 
 Errors:
-  Not much error checking, exits if plug isn't found.
-  Not sure what happens during DST on/off transition. Might work ok or be off an hour that day.
+- Not much error checking, exits if plug isn't found.
+- Not sure what happens during DST on/off transition. Might work ok or be off an hour that day.
 
 Modules likely needing install:
-  pip install suntime
-  pip install python-kasa
+- pip install suntime
+- pip install python-kasa
 
 
 ------------------------ provisioning notes ---------------------------------------------
