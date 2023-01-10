@@ -1,4 +1,4 @@
-# kasa-smart-plug-demo
+# kasa-smart-plug-python-demo
 A short demo using python-kasa to control a smart plug.
 
 A smart plug is programmed to turn on a light at sunset, then turn it off at a specified time.
