@@ -41,6 +41,7 @@ Modules likely needing install:
 
 
 ------------------------ provisioning notes ---------------------------------------------
+
 For kasa CLI commands, refer to https://python-kasa.readthedocs.io/en/latest/cli.html#provisioning
 
 First find the plug's wifi and connect to its network, its wifi SSID ends with its 4-digit MAC.
