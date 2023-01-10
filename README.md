@@ -20,12 +20,10 @@ Supplied is a simple cron.d script to do this on a Pi.
 
 LOGIC:
 On startup,
-
-    compare local time to on/off time and today's sunset, and turn plug on/off accordingly (in case Pi reboot.) plug_state = on/off
+-    compare local time to on/off time and today's sunset, and turn plug on/off accordingly (in case Pi reboot.) plug_state = on/off
 
 main loop:
-
-    if plug_state=on, calc S seconds to off time
+-    if plug_state=on, calc S seconds to off time
     
     else, calc S seconds to on time (sunset) with any adjust
     
