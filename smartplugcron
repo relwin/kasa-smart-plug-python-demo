@@ -1,5 +1,5 @@
-# kasa simple sunset plug control starting at boot
+# kasa simple sunset plug control starting at boot, with some delay in case router rebooted too (power fail/restore.)
 # copy this file to: /etc/cron.d
 # check for cron errors: >grep cron /var/log/syslog
 # 
-@reboot pi /usr/bin/python /home/pi/Public/pkasa/smartplugsunset.py &
+@reboot pi sleep 300 && /usr/bin/python /home/pi/Public/pkasa/smartplugsunset.py &
